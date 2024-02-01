@@ -1,0 +1,19 @@
+---
+title: "Lab_3_R_Package_Making"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Lab_3_R_Package_Making}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(BROSAlab3)
+```
