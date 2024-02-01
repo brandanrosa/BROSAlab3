@@ -16,7 +16,7 @@ ggmytable(df, x, y, z)
 \item{z}{a quantitative vector from df}
 }
 \value{
-returns a bar-plot and summary of the selected vectors from df
+Returns a bar-plot and summary of the selected vectors from df
 }
 \description{
 ggmytable
