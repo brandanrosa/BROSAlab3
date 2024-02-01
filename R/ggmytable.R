@@ -30,7 +30,7 @@ ggmytable <- function(df, x, y, z){# df = dataframe, x/y = cat vars , z = num va
   gg <- ggplot(data = df, aes(x = .data[[x]])) +
     geom_bar() +
     facet_wrap(~ .data[[y]]) +
-    labs(title = "B Rosa", subtitle = "Bar-Plot of MTBE Data", y = "Count")
+    labs(title = "B Rosa", y = "Count")
 
   list(Summary = df1, Bar_Plot = gg)
 }

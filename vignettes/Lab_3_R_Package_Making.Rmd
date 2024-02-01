@@ -1,5 +1,5 @@
 ---
-title: "Lab_3_R_Package_Making"
+title: "The BROSAlab3 Package"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{Lab_3_R_Package_Making}
@@ -10,10 +10,43 @@ vignette: >
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  message = FALSE,
+  warning = FALSE
 )
 ```
 
 ```{r setup}
 library(BROSAlab3)
 ```
+
+# Introduction
+
+---
+
+This vignette describes the use of the BROSAlab3 package, and shows you how to apply the ggmytable function to your own data frames. The ggmytable function takes as arguments a data frame (df), two categorical variables ($x$ and $y$), and one numerical variable ($z$). The package also contains the "MTBE" and "DDT" data sets for practice and experimentation.
+
+# Example: Looks Fishy
+
+---
+
+Let's begin with an example using the the "DDT" data; a data set containing  measurements of 144 fish caught on various rivers. 
+
+```{r}
+ggmytable(ddt, "RIVER", "SPECIES", "WEIGHT")
+```
+
+The function returns a summary which finds the total number and mean weight ($z$) of each fish species ($y$). Further, it produces bar-plots displaying the number of each species caught on each river ($x$).  
+
+_Note_ the quotations around the three variable names when using the function.  
+
+
+
+
+
+
+
+
+
+
+

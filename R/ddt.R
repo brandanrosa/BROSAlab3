@@ -1,4 +1,4 @@
-#' DDT data set
+#' @title DDT data set
 #'
 #' A complete data set of measurements of 144 fish caught on various rivers
 #'
