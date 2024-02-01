@@ -1,0 +1,27 @@
+#' @title MTBE Data Set
+#'
+#' A data set concerning groundwater contamination from MTBE in 223 wells in New Hampshire.
+#'
+#' @format
+#' A data frame with 144 rows and 5 columns:
+#' \describe{
+#'   \item{pH}{pH level}
+#'   \item{SpConduct}{specific conductance}
+#'   \item{DissOxy}{dissolved oxygen concentration}
+#'   \item{RoadsPct}{density of roads}
+#'   \item{IndPct}{individual groudwater source}
+#'   \item{UrbanPct}{urban groudwater source}
+#'   \item{DevPct}{developed sources}
+#'   \item{WellClass}{ownership status of well}
+#'   \item{Aquifier}{type of aquifer}
+#'   \item{Depth}{depth of well}
+#'   \item{SafeYld}{safe yield score}
+#'   \item{Distance}{distance from known source}
+#'   \item{MTBE-Detect}{MTBE detection level}
+#'   \item{MTBE-Level}{micrograms of MTBE per liter of water}
+#'   \item{HouseDen}{density of housing}
+#'   \item{PopDen}{population density}
+#'   ...
+#' }
+#' @source <https://www.amazon.com/Statistics-Engineering-Sciences-William-Mendenhall/dp/1498728855>
+"mtbe"
