@@ -7,14 +7,8 @@
 #'
 #' @return Returns a bar-plot and summary of the selected vectors from df
 #'
-#' @importFrom dplyr group_by
-#' @importFrom dplyr summarize
-#' @importFrom dplyr n
-#' @importFrom ggplot2 ggplot
-#' @importFrom ggplot2 aes
-#' @importFrom ggplot2 geom_bar
-#' @importFrom ggplot2 facet_wrap
-#' @importFrom ggplot2 labs
+#' @importFrom dplyr group_by summarize n
+#' @importFrom ggplot2 ggplot aes geom_bar facet_wrap labs
 #' @importFrom magrittr %>%
 #' @importFrom rlang .data
 #'
