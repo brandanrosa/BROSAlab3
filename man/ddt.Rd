@@ -3,9 +3,7 @@
 \docType{data}
 \name{ddt}
 \alias{ddt}
-\title{DDT data set
-
-A complete data set of measurements of 144 fish caught on various rivers}
+\title{DDT}
 \format{
 A data frame with 144 rows and 5 columns:
 \describe{
@@ -25,8 +23,6 @@ A data frame with 144 rows and 5 columns:
 ddt
 }
 \description{
-DDT data set
-
 A complete data set of measurements of 144 fish caught on various rivers
 }
 \keyword{datasets}

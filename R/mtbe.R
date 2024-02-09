@@ -1,6 +1,6 @@
-#' @title MTBE Data Set
+#' @title MTBE
 #'
-#' A data set concerning groundwater contamination from MTBE in 223 wells in New Hampshire.
+#' @description A data set concerning groundwater contamination from MTBE in 223 wells in New Hampshire.
 #'
 #' @format
 #' A data frame with 144 rows and 5 columns:

@@ -3,9 +3,7 @@
 \docType{data}
 \name{mtbe}
 \alias{mtbe}
-\title{MTBE Data Set
-
-A data set concerning groundwater contamination from MTBE in 223 wells in New Hampshire.}
+\title{MTBE}
 \format{
 A data frame with 144 rows and 5 columns:
 \describe{
@@ -35,8 +33,6 @@ A data frame with 144 rows and 5 columns:
 mtbe
 }
 \description{
-MTBE Data Set
-
 A data set concerning groundwater contamination from MTBE in 223 wells in New Hampshire.
 }
 \keyword{datasets}

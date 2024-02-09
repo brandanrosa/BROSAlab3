@@ -1,6 +1,6 @@
-#' @title DDT data set
+#' @title DDT
 #'
-#' A complete data set of measurements of 144 fish caught on various rivers
+#' @description A complete data set of measurements of 144 fish caught on various rivers
 #'
 #' @format
 #' A data frame with 144 rows and 5 columns:

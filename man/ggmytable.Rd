@@ -19,7 +19,7 @@ ggmytable(df, x, y, z)
 Returns a bar-plot and summary of the selected vectors from df
 }
 \description{
-A short function which produces a ggplot of the data.#'
+A short function which produces a ggplot of the data.
 }
 \examples{
 \dontrun{ggmytable(mtbe, "MTBE-Detect", "Aquifier", "MTBE-Level")}
