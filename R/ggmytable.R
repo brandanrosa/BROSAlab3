@@ -1,5 +1,8 @@
 #' @title ggmytable
 #'
+#' @description
+#' A short function which produces a ggplot of the data.#'
+#'
 #' @param df a data frame
 #' @param x a qualitative vector from df
 #' @param y a qualitative vector from df
