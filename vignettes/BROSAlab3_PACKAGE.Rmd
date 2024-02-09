@@ -33,7 +33,7 @@ This vignette describes the use of the BROSAlab3 package, and shows you how to a
 Let's begin with an example using the the "DDT" data; a data set containing  measurements of 144 fish caught on various rivers. 
 
 ```{r}
-ggmytable(ddt, "RIVER", "SPECIES", "WEIGHT")
+ggmytable(ddt, "SPECIES", "RIVER", "LENGTH")
 ```
 
 The function returns a summary which finds the total number and mean weight ($z$) of each fish species ($y$). Further, it produces bar-plots displaying the number of each species caught on each river ($x$).  
